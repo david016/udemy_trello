@@ -1,4 +1,3 @@
-import { UserInterface } from "./../types/user.interface";
 import { model, Schema } from "mongoose";
 import { UserDocument } from "../types/user.interface";
 import validator from "validator";
