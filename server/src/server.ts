@@ -2,7 +2,7 @@ import express from "express";
 import { createServer } from "http";
 import { Server } from "socket.io";
 import mongoose from "mongoose";
-import * as usersController from "../controllers/users";
+import * as usersController from "./controllers/users";
 import bodyParser from "body-parser";
 
 const app = express();
